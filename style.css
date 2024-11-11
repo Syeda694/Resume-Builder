@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Stylish and modern font */
+    background-color: #e0e0e0; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Container Styling */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Form Wrapper */
+.form-wrapper {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #ff6f61; /* Coral color for heading */
+    font-family: 'Poppins', sans-serif; /* Stylish font for heading */
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+    font-family: 'Poppins', sans-serif;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;  /* Slightly off-white */
+    transition: 0.3s ease;
+}
+
+/* Input Focus State */
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #ff6f61; /* Focus border color to match header */
+    background-color: #ffffff;
+}
+
+/* Button Styling */
+.btn {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #ff6f61;  /* Coral color for button */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 100%;
+    font-family: 'Poppins', sans-serif; /* Consistent font style */
+}
+
+.btn:hover {
+    background-color: #e75b50; /* Darker coral on hover */
+}
+
+/* Preview Section */
+.preview-section {
+    display: none;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.preview-section h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.resume-preview {
+    background-color: #f1f8f6;  /* Light pastel green background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.resume-preview h3 {
+    font-size: 28px;
+    color: #4caf50;  /* Fresh green color for title */
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif; /* Stylish font for preview title */
+}
+
+.resume-preview p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    font-family: 'Poppins', sans-serif; /* Consistent font for preview text */
+}
+
+.resume-preview .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.resume-preview .skills-list .skill-item {
+    background-color: #ff6f61;  /* Coral color for skill items */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
